@@ -6,6 +6,8 @@ This project provides the full text of the KJV in a structured,
 machine-readable format. Each verse is extracted and stored as a row in a CSV
 file with consistent metadata.
 
+Access the CSV here: [`kjv.csv`](data/csv/kjv.csv)
+
 ## Dataset
 
 Each record includes:
@@ -29,8 +31,8 @@ id,testament,book,chapter,verse,text
 1-01-001-002,Old Testament,Genesis,1,2,"And the earth was without form, and void; ..."
 ```
 
-The parsing script (`parse_kjv.py`) is included for transparency and to
-document how the dataset was generated.
+The parsing script ([`parse_kjv.py`](src/parse_kjv.py)) is included for
+transparency and to document how the dataset was generated.
 
 ## Source Text
 
